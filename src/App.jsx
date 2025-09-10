@@ -38,7 +38,7 @@ function Board() {
             setTimeout(() => {
                 setSquares(Array(9).fill(null));
                 setTurn('X');
-            }, 1000);
+            }, 5000);
         }
     }
 
