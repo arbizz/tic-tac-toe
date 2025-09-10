@@ -34,11 +34,13 @@ function Board() {
         newSquares[i] = handleTurn();
         setSquares(newSquares);
 
-        if (calculateWinner(newSquares) || checkBoard(newSquares)) {
+        if (calculateWinner(newSquares)) {
             setTimeout(() => {
                 setSquares(Array(9).fill(null));
                 setTurn('X');
             }, 5000);
+        } else if (checkBoard(newSquares)) {
+            setSquares(Array(9).fill(null));
         }
     }
 
