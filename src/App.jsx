@@ -40,7 +40,9 @@ function Board() {
                 setTurn('X');
             }, 5000);
         } else if (checkBoard(newSquares)) {
-            setSquares(Array(9).fill(null));
+            setTimeout(() => {
+                setSquares(Array(9).fill(null));
+            }, 5000);
         }
     }
 
