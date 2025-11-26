@@ -57,4 +57,4 @@ npm run preview
 ---
 
 ## License
-This project is free to use, modify, and learn from.
+MIT License
