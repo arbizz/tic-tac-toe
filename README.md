@@ -5,18 +5,18 @@ This project includes turn switching, winner detection, draw detection, automati
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔄 Turn-based gameplay (X vs O)
-- 🏆 Winner detection
-- 🤝 Draw detection (board full)
-- ⏳ Auto reset after win/draw (5 seconds)
-- 📢 Dynamic messages for win/draw
-- ⚡ Fast development with React + Vite HMR
+- Turn-based gameplay (X vs O)
+- Winner detection
+- Draw detection (board full)
+- Auto reset after win/draw (5 seconds)
+- Dynamic messages for win/draw
+- Fast development with React + Vite HMR
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Dependencies
 ```bash
@@ -40,7 +40,7 @@ npm run preview
 
 ---
 
-## 🕹️ How the Game Works
+## How the Game Works
 - Player X always starts first.
 - Click an empty tile to place your mark.
 - If a player wins, the game shows a message and resets automatically after 5 seconds.
@@ -48,7 +48,7 @@ npm run preview
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 - React
 - Vite
 - Javascript (ES6)
@@ -56,5 +56,5 @@ npm run preview
 
 ---
 
-## 📜 License
+## License
 This project is free to use, modify, and learn from.
